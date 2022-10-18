@@ -1,12 +1,12 @@
 <p align="center">
 <img src="https://i.imgur.com/6rEjyr2.png" title="source: imgur.com" />
 </p>
-
-<h2 align="center">Fotask</h2>
+<br>
 <p align="center">
-one step at a time <br>
+<img src="https://i.imgur.com/00OMtAx.png" title="source: imgur.com" /><br>
+<img src="https://i.imgur.com/dDg7gbG.png" title="source: imgur.com" />
 </p>
-
+<br><br>
 <p float="left">
   <img src="https://i.imgur.com/GyA1jor.png" width="500" />
   <img src="https://i.imgur.com/uihhahT.png" width="495" /> 
@@ -33,6 +33,7 @@ This is a simple task managing app that helps beat procastination by helping you
   - change the font color of timer countdown when timer is active. 
   - a suggestion inbox for others to suggest new features to be added, bugs/glithces, or anything else to help improve Fotask.
   - turn this into a downloadable desktop app
+  - improve on Fotask Logo
 
 
 ### Plans for future?

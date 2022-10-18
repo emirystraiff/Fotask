@@ -1,19 +1,26 @@
 <p align="center">
-status: active <br>
-project not completed and is curently being worked on
+<img src="https://i.imgur.com/6rEjyr2.png" title="source: imgur.com" />
+</p>
 
 <h2 align="center">Fotask</h2>
 <p align="center">
 one step at a time <br>
-insert screenshot here
 </p>
 
+<p float="left">
+  <img src="https://i.imgur.com/GyA1jor.png" width="500" />
+  <img src="https://i.imgur.com/uihhahT.png" width="495" /> 
+</p>
+
+<p align="center">
 This is a simple task managing app that helps beat procastination by helping you focus throughout your productive day!
+</p>
 
 ### Currently Working on:
   - main functionality of Fotask
     - Add new task to task list
-    - timer of first task in life starts the timer countdown when the start button is clicked
+    - When the start button is clicked, the timer of first task in list starts the timer countdown 
+    - When the timer ends, that task automatically deletes and the next task in line starts its timer 
     - the timer stops when the stop button is clicked
     - ability to edit the task name and time duration
     - ability to delete a task in task list
@@ -23,8 +30,9 @@ This is a simple task managing app that helps beat procastination by helping you
   - old tass return to end of the task list once the task is "done", aka, the timer ends.
   - customizable options to change overall theme to different varieties of color palettes
   - customizable option to change alarm sounds
-  - turn this into a downloadable desktop app
+  - change the font color of timer countdown when timer is active. 
   - a suggestion inbox for others to suggest new features to be added, bugs/glithces, or anything else to help improve Fotask.
+  - turn this into a downloadable desktop app
 
 
 ### Plans for future?

@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-This is a simple task managing app that helps beat procastination by helping you focus throughout your productive day!
+This is a simple task managing app that helps beat procrastination by helping you focus throughout your productive day!
 </p>
 
 <br>

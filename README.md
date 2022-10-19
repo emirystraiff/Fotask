@@ -18,7 +18,7 @@ This is a simple task managing app that helps beat procastination by helping you
 
 <br>
 <p align="center">
-HTML - CSS - JavaScript
+HTML - CSS - JavaScript <br>
 CSSGrid - Flexbox
 </p>
 <br>

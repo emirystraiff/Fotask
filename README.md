@@ -7,9 +7,9 @@
 <img src="https://i.imgur.com/dDg7gbG.png" title="source: imgur.com" />
 </p>
 <br><br>
-<p float="left">
-  <img src="https://i.imgur.com/GyA1jor.png" width="500" />
-  <img src="https://i.imgur.com/uihhahT.png" width="495" /> 
+<p float="left" align="center">
+  <img src="https://i.imgur.com/GyA1jor.png" width="400" />
+  <img src="https://i.imgur.com/uihhahT.png" width="395" /> 
 </p>
 
 <p align="center">

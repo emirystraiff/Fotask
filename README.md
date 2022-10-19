@@ -16,6 +16,13 @@
 This is a simple task managing app that helps beat procastination by helping you focus throughout your productive day!
 </p>
 
+<br>
+<p align="center">
+HTML - CSS - JavaScript
+CSSGrid - Flexbox
+</p>
+<br>
+
 ### Currently Working on:
   - main functionality of Fotask
     - Add new task to task list

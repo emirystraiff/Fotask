@@ -18,8 +18,8 @@ This is a simple task managing app that helps beat procrastination by helping yo
 
 <br>
 <p align="center">
+  <ins>Current tech stack:</ins> <br>
 HTML - CSS - JavaScript <br>
-CSSGrid - Flexbox
 </p>
 <br>
 

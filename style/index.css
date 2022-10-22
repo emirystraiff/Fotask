@@ -1,0 +1,252 @@
+*
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body
+{
+    display: grid;
+    grid-template-rows: 10% 15% 55% 15% 10% ;
+    grid-template-columns: 20% 1fr 20%;
+    height: 1100px;
+}
+
+/* google fonts/icons */
+.material-symbols-rounded {
+  /* move arrow button down a little */
+  position: relative;
+  top: 3px;
+
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/* remove spin button on number input field in class="addFotask__field" id:"taskTime" */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+/* ------------------------- addFotask container to add each task to task list ------------------------- */
+
+
+.addFotask
+{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    place-self: center;
+
+    display: flex;
+    justify-content: center;
+    
+    width: 45em;
+    height: 80px;
+    border-radius: 15px;
+    background-color: #ECC963;
+
+
+}
+
+form
+{
+    align-self: center;
+}
+
+
+#taskName
+{
+    height: 30px;
+    width: 350px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#taskTime
+{
+    height: 30px;
+    width: 50px;
+    border: none;
+    border-radius: 6px;
+
+}
+
+#taskName:focus, #taskTime:focus
+{
+    outline: none;
+}
+
+
+.addFotask__addTaskbtn
+{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #FFA2A2;
+    align-self: center;
+
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+    top:6px;
+
+}
+
+
+/* ------------------------- Main container of list of tasks in queue ------------------------- */
+
+
+.fotask
+{
+    grid-column: 2/3 ;
+    grid-row: 3/4;
+    place-self: center;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+
+
+
+    background-color: pink;
+    height: 600px;
+    width:45em;
+    border-radius: 15px;
+
+    border: 15px solid pink;
+    
+    /* hide scroll bar but still be able to scroll */
+    overflow: auto;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* hide scroll bar but still be able to scroll */
+.fotask::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.fotask__task
+{
+    flex: none;
+    background-color: white;
+    height: 100px;
+    width: 90%;
+    border-radius: 15px;
+    margin: 10px;
+
+    text-align: left;
+
+    position: relative;
+    top: -110px;
+    left: 26px;
+
+}
+
+.fotask__task__name--text
+{
+    border: none;
+    background-color: transparent; 
+    border-bottom: 3px solid #ECC963;
+    height: 20px;
+    width: 350px;
+    position: relative;
+    left: 15px;
+    font-size: 20px;
+    color:#3b3b3b;
+}
+
+.fotask__task__time
+{
+    position: relative;
+    top: 13px;
+    left: 20px;
+    font-size: 40px;
+    color:#3b3b3b;
+
+}
+
+.fotask__task__actions
+{
+    position: absolute;
+    left: 12px;
+    top: 60px;
+}
+
+.fotask__task__actions--edit
+{
+    border-radius: 10px;
+    border: none;
+    background-color: #ECC963;
+    color:white;
+}
+
+.fotask__task__actions--delete
+{
+    border-radius: 10px;
+    border: none;
+    background-color: #ec6363;
+    color:white;
+}
+
+/* ------------------------- play/stop button ------------------------- */
+
+.fotask--timer
+{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    justify-self: center;
+
+    position: relative;
+    top: 30px;
+
+}
+
+.fotask--timer--btn
+{
+    border: none;
+    border-radius: 10px;
+    color: white;
+
+    height:50px;
+    width: 100px;
+
+    cursor: pointer;
+}
+
+.fotask--timer--btn__start
+{
+    background-color: #95e928;
+}
+
+/* when start button is clicked and timer starts, this class will be added */
+.fotask--timer--btn__stop
+{
+    background-color: #e93528;
+}
+
+/* add the word start to start button */
+.fotask--timer--btn__start::before
+{
+    content: "start";
+    font-size: 18px;
+    position: relative;
+    bottom: 3.5px;
+} 
+
+/* add the word stop to stop button */
+.fotask--timer--btn__stop::before
+{
+    content: "stop";
+    font-size: 18px;
+    position: relative;
+    bottom: 3.5px;
+}

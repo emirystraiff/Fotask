@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotask Timer</title>
+
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+
+    <!-- CSS style sheet -->
+    <link href="css/fotaskTimer.css" rel="stylesheet">    
+</head>
+
+<body>
+
+    <!-- container with add feature to add tasks in queue in main fotask container 
+    Container asks user for task name and time duration-->
+    <div class="addFotask">
+        <form id="addFotask__form">
+
+                <input type="text" id="taskName" placeholder="Whats your next task?">
+
+
+            <span class="addFotask__time">
+                <input type="number" id="taskTime" class="taskTime--hours" placeholder="hr">
+                <span class="addFotask__time__colon">:</span>
+                <input type="number" id="taskTime" class="taskTime--min" placeholder="min">
+                <span class="addFotask__time__colon">:</span>
+                <input type="number" id="taskTime" class="taskTime--sec" placeholder="sec">
+            </span>
+
+                <button class="addFotask__addTaskbtn" type="submit">
+                    <span class="material-symbols-rounded">
+                        add
+                        </span>
+                </button>
+
+        </form>
+
+    </div>
+
+
+    <!-- main container of queued tasks -->
+    <div class="fotask">
+
+ <!--         each task container 
+        <div class="fotask__task">
+
+             name/title for each task 
+            <span class="fotask__task__name">
+                <input type="text" readonly class="fotask__task__name--text" value="A task that I will complete!">
+            </span>
+
+            the time for each task
+            <span class="fotask__task__time">
+
+                <span class="fotask__task__time fotask__task__time--hours">00</span>
+                <span class="fotask__task__time">:</span>
+                <span class="fotask__task__time fotask__task__time--minutes">00</span>
+                <span class="fotask__task__time">:</span>
+                <span class="fotask__task__time fotask__task__time--seconds">00</span>
+            </span>
+
+             edit and delete button for each task
+            <span class="fotask__task__actions">
+                <button type="button" class="fotask__task__actions--edit">
+                    <span class="material-icons">
+                        edit
+                    </span>
+                </button>
+                <button type="button" class="fotask__task__actions--delete">
+                    <span class="material-icons">
+                        delete
+                    </span>
+                </button>
+            </span>
+        </div>
+ -->
+            
+    </div> <!-- CLOSES FOTASK main container -->
+
+    
+
+    <!-- start/stop timer buttons
+    when timer is stopped, start button is visible
+    when timer is running, button automatically change to stop button --> 
+    <div class="fotask--timer">
+
+        <button type="button" class="fotask--timer--btn fotask--timer--btn__control fotask--timer--btn__start">
+            <span class="material-symbols-rounded">
+                play_arrow
+            </span>
+        </button>
+
+    </div>
+
+    <!-- Javascript Script -->
+    <script src="scripts/fotaskTimer.js"></script>
+</body>
+</html>

@@ -44,4 +44,4 @@ HTML - CSS - JavaScript <br>
 
 
 ### Plans for future?
-This project is currently set to private until completion. I have yet to decide if Fotask should be open source or not, but what I have decided is to make Fotask free to download for anyone who wants to use it. I can not wait to finish this project to increase my productivity, as well as sharing it with the world in hopes it would help others too.
+I have yet to decide if Fotask should be open source or not, but what I have decided is to make Fotask free to download for anyone who wants to use it. I can not wait to finish this project to increase my productivity, as well as sharing it with the world in hopes it would help others too.
